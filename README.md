@@ -1,24 +1,15 @@
-#setup and  mobile skelton
-I am computer scientist in the making
+Title: Personal Portfolio - Mobile Skeleton
 
-language Used
+Description:
+As an aspiring computer scientist, I am embarking on a project to build my own personal portfolio using HTML and CSS, with a focus on mobile design.
 
-- HTML
-- CSS
+Key Features:
+1. Responsive Design: The portfolio will be optimized for mobile devices, ensuring that it looks and functions well on smaller screens.
+2. Navigation Menu: A navigation menu will be included to provide easy access to different sections of the portfolio.
+3. Link to Personal Account: The portfolio will feature a link to my personal account, allowing visitors to connect with me or view additional information.
 
-Features
+Customization:
+The project provides flexibility for customization. I can modify the content within each section, add or remove sections based on my preferences, and apply my own styling to create a unique and personalized portfolio.
 
-- Responsive design
-- Navigation menu
- 
- Customization
+Contact Details:to get in touch, please feel free to contact me at tsionget22@gmail.com.
 
- You can modify the content, add or remove sections, or apply your own styling.
-
-Acknowledgements
-
-I would like to thank my instructor for inspiring me to learn web programming and helping me improve my skills.
-
-# Contact me 
-
-If you have any questions or suggestion, you can contact me at  tsionget22@gmail.com.

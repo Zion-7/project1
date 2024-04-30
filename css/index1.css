@@ -1,0 +1,165 @@
+html,
+body {
+  background-color: white;
+  margin: 0%;
+}
+
+.c {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070FF;
+  margin-right: 65%;
+  text-align: left;
+}
+
+.menu1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* Align items vertically */
+  justify-content: space-between;
+  z-index: 100%;
+}
+
+.menu-toggle {
+  margin: 5%;
+}
+
+.menu-items {
+  text-align: left;
+  display: block;
+  margin-right: 5%;
+  /* Add some spacing between menu items */
+}
+
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-items li:last-child {
+  margin-right: 0;
+  /* Remove margin for last menu item */
+}
+
+.head {
+  margin: 5%;
+}
+
+.headline-title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  text-align: left;
+}
+
+.headline-paragraph {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.headline-bolder {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  text-align: left;
+}
+
+.main3 {
+  text-align: left;
+  background-image: url(/img/back.svg);
+  background-size: cover;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.menu-items {
+  text-align: left;
+  display: flex;
+  align-items: center;
+
+}
+
+.menu-items li {
+  margin-right: 10px;
+}
+
+.menu-items li:last-child {
+  margin-right: 0;
+}
+
+.menu-items li a {
+  text-decoration: none;
+}
+
+.menu-items li a:hover {
+  color: #6070FF;
+}
+
+.menu-toggle:hover {
+  color: #6070FF;
+}
+
+
+/* Mobile Skeleton */
+@media (min-width: 375px) {
+  .headline-container {
+    text-align: center;
+  }
+
+  .headline-title {
+    font-size: 32px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .headline-paragraph,
+  .headline-bolder {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .headline-bolder {
+    text-align: left;
+  }
+
+  @media (max-width: 767px) {
+    .main3 {
+      background-size: 100% 100%;
+      padding: 10px;
+    }
+
+    .menu-items {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: inline-block;
+      border: none;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+    .menu-items li {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .menu-toggle {
+      display: none;
+    }
+  }
+
+}

@@ -75,6 +75,10 @@ body {
   text-align: left;
 }
 
+.headline-bolder :hover {
+  color: #6070FF;
+}
+
 .main3 {
   text-align: left;
   background-image: url(/img/back.svg);

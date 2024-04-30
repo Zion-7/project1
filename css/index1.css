@@ -28,20 +28,6 @@ body {
   margin: 5%;
 }
 
-.menu-items {
-  text-align: left;
-  margin-right: 5%;
-  display: flex;
-  align-items: center;
-
-  /* Add some spacing between menu items */
-}
-
-.menu-items li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
 .head {
   margin: 5%;
 }
@@ -85,18 +71,6 @@ body {
   margin-top: 5%;
 }
 
-.menu-items li:last-child {
-  margin-right: 0;
-}
-
-.menu-items li a {
-  text-decoration: none;
-}
-
-.menu-items li a:hover {
-  color: #6070ff;
-}
-
 .menu-toggle:hover {
   color: #6070ff;
 }
@@ -130,10 +104,6 @@ body {
       padding: 10px;
     }
 
-    .menu-items {
-      display: none;
-    }
-
     .menu-toggle {
       display: inline-block;
       border: none;
@@ -141,11 +111,6 @@ body {
   }
 
   @media screen and (min-width: 600px) {
-    .menu-items li {
-      display: none;
-      text-decoration: none;
-    }
-
     .menu-toggle {
       display: none;
     }

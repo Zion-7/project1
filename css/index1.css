@@ -157,7 +157,7 @@ body {
 
   @media screen and (min-width: 600px) {
     .menu-items li {
-      display: inline-block;
+      display: none;
       text-decoration: none;
     }
 

@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
 
-  /* Align items vertically */
+
   justify-content: space-between;
   z-index: 100%;
 }

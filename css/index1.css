@@ -136,6 +136,7 @@ body {
 }
 
 
+
 .list ul {
   display: flex;
   list-style-type: disc;
@@ -401,3 +402,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+  @media screen and (min-width: 600px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+}
+

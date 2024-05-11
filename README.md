@@ -47,9 +47,6 @@ Customization: You can use this project by cloning it to your folder and changin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-- <a href="[#readme-top](https://zion-7.github.io/project1/)">my portifolo Live</a>
-
 https://zion-7.github.io/project1/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

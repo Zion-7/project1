@@ -39,7 +39,6 @@ body {
 
 .head {
   margin: 5%;
-
 }
 
 .headline-title {
@@ -89,8 +88,7 @@ body {
   text-align: center;
 }
 
-.headline-title {
-
+.headline-title1 {
   font-size: 32px;
   line-height: 40px;
   width: 100%;
@@ -103,16 +101,11 @@ body {
   width: 100%;
 }
 
-.headline-bolder {
-  text-align: left;
-}
-
 /* Mobile Skeleton */
 @media screen and (min-width: 375px) {
   .main3 {
     background-size: 100% 100%;
     padding: 10px;
-
   }
 
   .menu-toggle {
@@ -132,9 +125,7 @@ body {
 
 .image {
   margin-top: 25%;
-
 }
-
 
 .list ul {
   display: flex;
@@ -143,7 +134,7 @@ body {
 }
 
 .para {
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -152,10 +143,10 @@ body {
 
 .list1 {
   display: flex;
+  font-family: "Inter", sans-serif;
   gap: 5%;
   margin-left: 5%;
   list-style-type: none;
-
 }
 
 .list1 li {
@@ -163,7 +154,7 @@ body {
   font-size: medium;
   text-decoration: none;
   flex: 10;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   color: #7f8cff;
   border: none;
   border-radius: 20px;
@@ -175,11 +166,9 @@ body {
 .button button {
   margin-top: 10%;
   border-radius: 10px;
-  border: 2px solid #396BF2;
-  font-size: medium;
-  color: #396BF2;
+  border: 2px solid #396bf2;
+  color: #396bf2;
   font-size: 150%;
-
 }
 
 .container6 {
@@ -187,14 +176,12 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   background-color: white;
 }
 
 .image4 {
   margin-top: 10%;
 }
-
 
 .list7 ul {
   display: flex;
@@ -203,7 +190,7 @@ body {
 }
 
 .paragrap {
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -214,8 +201,8 @@ body {
   display: flex;
   gap: 5%;
   margin-left: 5%;
+  font-family: sans-serif;
   list-style-type: none;
-
 }
 
 .list6 li {
@@ -223,7 +210,7 @@ body {
   font-size: medium;
   text-decoration: none;
   flex: 10;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   color: #7f8cff;
   border: none;
   border-radius: 20px;
@@ -235,11 +222,9 @@ body {
 .button3 button {
   margin-top: 10%;
   border-radius: 10px;
-  border: 2px solid #396BF2;
-  font-size: medium;
-  color: #396BF2;
+  border: 2px solid #396bf2;
+  color: #396bf2;
   font-size: 150%;
-
 }
 
 .container1 {
@@ -255,7 +240,6 @@ body {
   margin-top: 10%;
 }
 
-
 .list2 ul {
   display: flex;
   list-style-type: disc;
@@ -263,7 +247,7 @@ body {
 }
 
 .parag {
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -275,7 +259,7 @@ body {
   gap: 5%;
   margin-left: 5%;
   list-style-type: none;
-
+  font-family: "Inter", sans-serif;
 }
 
 .list3 li {
@@ -283,7 +267,7 @@ body {
   font-size: medium;
   text-decoration: none;
   flex: 10;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   color: #7f8cff;
   border: none;
   border-radius: 20px;
@@ -295,11 +279,9 @@ body {
 .button1 button {
   margin-top: 10%;
   border-radius: 10px;
-  border: 2px solid #396BF2;
-  font-size: medium;
-  color: #396BF2;
+  border: 2px solid #396bf2;
+  color: #396bf2;
   font-size: 150%;
-
 }
 
 .container2 {
@@ -315,7 +297,6 @@ body {
   margin-top: 10%;
 }
 
-
 .list4 ul {
   display: flex;
   list-style-type: disc;
@@ -323,7 +304,7 @@ body {
 }
 
 .paragr {
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -335,7 +316,7 @@ body {
   gap: 5%;
   margin-left: 5%;
   list-style-type: none;
-
+  font-family: sans-serif;
 }
 
 .list5 li {
@@ -343,7 +324,7 @@ body {
   font-size: medium;
   text-decoration: none;
   flex: 10;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   color: #7f8cff;
   border: none;
   border-radius: 20px;
@@ -355,31 +336,24 @@ body {
 .button2 button {
   margin-top: 10%;
   border-radius: 10px;
-  border: 2px solid #396BF2;
-  font-size: medium;
-  color: #396BF2;
+  border: 2px solid #396bf2;
+  color: #396bf2;
   font-size: 150%;
-
 }
 
 .button4 button {
   margin-top: 10%;
   margin-bottom: 10%;
-  border-color: #6070FF;
+  border-color: #6070ff;
   background-color: white;
   color: #3040f3;
   border-radius: 10px;
-
-
 }
 
 .lan {
   display: flex;
   justify-content: space-between;
-
 }
-
-
 
 .lang-img {
   display: flex;
@@ -389,7 +363,6 @@ body {
   width: 303px;
   height: 66.72px;
   gap: 20px;
-
 }
 
 .form {

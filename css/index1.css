@@ -127,11 +127,6 @@ body {
   margin-top: 25%;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f4f5513ecdc3fa7083a3b0ff63bb4e15761acec1
 .list ul {
   display: flex;
   list-style-type: disc;
@@ -379,14 +374,3 @@ body {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-=======
-
-  @media screen and (min-width: 600px) {
-    .menu-toggle {
-      display: none;
-    }
-  }
-}
-
->>>>>>> f4f5513ecdc3fa7083a3b0ff63bb4e15761acec1

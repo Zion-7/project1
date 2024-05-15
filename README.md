@@ -47,6 +47,11 @@ Customization: You can use this project by cloning it to your folder and changin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+https://zion-7.github.io/project1/
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ### Usage
 
 You can use this project by cloning it to your folder and changing index.html and styles.css files.

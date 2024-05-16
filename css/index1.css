@@ -111,145 +111,151 @@ body {
   .menu-toggle {
     display: inline-block;
     border: none;
+
+  }
+
+  .container {
+    margin-top: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+  }
+
+  .new {
+    margin: auto;
+  }
+
+  .image {
+    margin-top: 25%;
+  }
+
+  .list ul {
+    display: flex;
+    list-style-type: disc;
+    gap: 10%;
+  }
+
+  .para {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .list1 {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    gap: 5%;
+    margin-left: 5%;
+    list-style-type: none;
+  }
+
+  .list1 li {
+    display: flex;
+    font-size: medium;
+    text-decoration: none;
+    flex: 10;
+    background-color: #ebebff;
+    color: #7f8cff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: left;
+  }
+
+  .button button {
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 2px solid #396bf2;
+    color: #396bf2;
+    font-size: 150%;
+  }
+
+  .button4 button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-color: #6070ff;
+    background-color: white;
+    color: #3040f3;
+    border-radius: 10px;
+  }
+
+  .lan {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lang-img {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    background-color: #f0ebef;
+    width: 303px;
+    height: 66.72px;
+    gap: 20px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 2%;
+    height: 50px;
+  }
+
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 86%;
+    padding: 7%;
+    height: 70px;
+  }
+
+  input[type="submit"] {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 2%;
+    border-radius: 10%;
+    padding: 3%;
+    color: blue;
+
+  }
+
+  .contact {
+    background-image: url(/img/contactback.png);
+    background-color: #6671f0;
+    border-top-left-radius: 45px;
+    height: 650px;
+  }
+
+  .form2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec1 {
+    align-self: center;
+    margin-left: 20%;
+    color: white;
+    font-size: 150%;
+  }
+
+  .par {
+    align-self: center;
+    margin-left: 10%;
+    font-family: sans-serif;
+    font-size: 100%;
+    color: white;
+    margin-top: 5px;
   }
 }
-
-.container {
-  margin-top: 10%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: white;
-}
-
-.image {
-  margin-top: 25%;
-}
-
-.list ul {
-  display: flex;
-  list-style-type: disc;
-  gap: 10%;
-}
-
-.para {
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
-.list1 {
-  display: flex;
-  font-family: "Inter", sans-serif;
-  gap: 5%;
-  margin-left: 5%;
-  list-style-type: none;
-}
-
-.list1 li {
-  display: flex;
-  font-size: medium;
-  text-decoration: none;
-  flex: 10;
-  background-color: #ebebff;
-  color: #7f8cff;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: left;
-}
-
-.button button {
-  margin-top: 10%;
-  border-radius: 10px;
-  border: 2px solid #396bf2;
-  color: #396bf2;
-  font-size: 150%;
-}
-
-.button4 button {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-color: #6070ff;
-  background-color: white;
-  color: #3040f3;
-  border-radius: 10px;
-}
-
-.lan {
-  display: flex;
-  justify-content: space-between;
-}
-
-.lang-img {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 2%;
-  background-color: #f0ebef;
-  width: 303px;
-  height: 66.72px;
-  gap: 20px;
-}
-
-.form {
-  display: flex;
-  justify-content: space-between;
-}
-
-/*
-input {
-  display: block;
-  margin-bottom: 10px;
-  width: 95%;
-  padding: 2%;
-  height: 50px;
-}
-textarea {
-  display: block;
-  margin-bottom: 10px;
-  width: 86%;
-  padding: 7%;
-  height: 70px;
-}
-
-input[type="submit"] {
-  margin-top: 10px;
-  width: 30%;
-  margin-left: 2%;
-  border-radius: 10%;
-  padding: 3%;
-  color: blue;
-
-}
-
-.contact {
-  background-image: url(/img/contactback.png);
-  background-color: #6671f0;
-  border-top-left-radius: 45px;
-  height: 650px;
-}
-
-.form2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.sec1 {
-  align-self: center;
-  margin-left: 20%;
-  color: white;
-  font-size: 150%;
-}
-
-.par {
-  align-self: center;
-  margin-left: 10%;
-  font-family: sans-serif;
-  font-size: 100%;
-  color: white;
-  margin-top: 5px;
-} */

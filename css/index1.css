@@ -5,7 +5,8 @@ body {
   align-items: center;
   flex-direction: column;
   border: 5px solid white;
-  /*width: 375px;*/
+
+  /* width: 375px; */
   background-color: rgba(240, 248, 255, 0.463);
 }
 
@@ -35,7 +36,6 @@ body {
 
 .menu-toggle {
   margin: 5%;
-
 }
 
 .head {
@@ -142,7 +142,6 @@ body {
   .menu-items li {
     display: none;
     text-decoration: none;
-
   }
 
   .new {
@@ -150,7 +149,6 @@ body {
     justify-content: space-between;
     flex-direction: column;
   }
-
 }
 
 .container {
@@ -160,8 +158,6 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
-
-
 }
 
 .image img {
@@ -243,7 +239,6 @@ body {
   justify-content: space-between;
 }
 
-
 input {
   display: block;
   margin-bottom: 10px;
@@ -267,7 +262,6 @@ input[type="submit"] {
   border-radius: 10%;
   padding: 3%;
   color: blue;
-
 }
 
 .contact {

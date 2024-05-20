@@ -16,12 +16,44 @@
                 <div class="c">
                     <h4>My Logo</h4>
                 </div>
+
+
+                <nav>
+                    <ul class="Sidebar">
+                        <li onclick=showHidebar()><a href="#"><img src="img/closebutton.jpg" alt="menu bar"></a></li>
+                        <li><a href="#portfolio" onclick=showHidebar()>portfolio</a></li>
+                        <li><a href="#about " onclick=showHidebar()>About</a></li>
+                        <li><a href="#contact" onclick=showHidebar()>contact</a></li>
+                    </ul>
+                    <ul class="hide">
+                        <li class="hideonmobile "><a href="#portfolio">portfolio</a></li>
+                        <li class="hideonmobile "><a href="#about">About</a></li>
+                        <li class="hideonmobile "><a href="#contact">contact</a></li>
+                        <li class="menu-toggle" onclick=showSidebar()><a href="#"><img src="/img/Icon - Menu.png"
+                                    alt="menu bar"></a></li>
+                    </ul>
+                </nav>
+                <script>
+                    function showSidebar() {
+                        const Sidebar = document.querySelector('.Sidebar')
+                        Sidebar.style.display = 'flex'
+
+                    }
+                    function showHidebar() {
+                        const Sidebar = document.querySelector('.Sidebar')
+                        Sidebar.style.display = 'none'
+
+                    }
+                </script>
+                </div>
+
                 <div class="menu-toggle">
                     <img src="img/Icon - Menu.png" alt="menu bar">
+ main
             </section>
             <section class="main3">
                 <div class="headline-title">
-                    <h2>Hey this is ጽዩናዊት</h2>
+                    <h2 class="portfolio">Hey this is ጽዩናዊት</h2>
                 </div>
                 <div class="headline-paragraph">
                     <p> "I am a computer scientist in the making.<br>
@@ -45,7 +77,11 @@
 
 
         <section class="container">
+
             <div class="image">
+
+                <img src="img/photo_2024-05-10_17-09-18.jpg" alt="image not found">
+
                 <img src="img\photo_2024-05-10_17-09-18.jpg" alt="image not found">
             </div>
             <div class="t">
@@ -64,20 +100,45 @@
                 <p>A daily selection of privately
                     <br> personalized reads;no accounts or <br>sign-ups required.
                 </p>
-            </div>
 
-            <div class="list1">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
             </div>
-            <div class="button">
-                <button>See project</button>
+            <div class="new">
+                <div class="t">
+                    <b>
+                        <h1>Tonic</h1>
+                    </b>
+                </div>
+                <div class="list">
+                    <ul>
+                        <b>CANOPY</b>
+                        <li>Back End Dev</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div class="para">
+                    <p>A daily selection of privately
+                        <br> personalized reads;no accounts or <br>sign-ups required.
+                    </p>
+                </div>
+
+                <div class="list1">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                </div>
+
+                <div class="button">
+                    <button>See project</button>
+                </div>
             </div>
         </section>
 
         <section class="container">
+
             <div class="image">
+
+                <img src="img/photo_2024-05-10_22-20-17.jpg" alt="image not found">
+=======
                 <img src="img\photo_2024-05-10_22-20-17.jpg" alt="image not found">
             </div>
             <div class="t">
@@ -97,19 +158,43 @@
                 <p>A daily selection of privately
                     <br> personalized reads;no accounts or <br>sign-ups required.
                 </p>
-            </div>
 
-            <div class="list1">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
             </div>
-            <div class="button">
-                <button>See project</button>
-            </div>
+            <div>
+                <div class="t">
+                    <b>
+                        <h1>Multi-Post
+                            Stories</h1>
+                    </b>
+                </div>
+                <div class="list">
+                    <ul>
+                        <b>CANOPY</b>
+                        <li>Back End Dev</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div class="para">
+                    <p>A daily selection of privately
+                        <br> personalized reads;no accounts or <br>sign-ups required.
+                    </p>
+                </div>
+
+                <div class="list1">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                </div>
+                <div class="button">
+                    <button>See project</button>
+
+                </div>
         </section>
         <section class="container">
             <div class="image">
+
+                <img src="img/ph.jpg" alt="not found" width="300px">
+
                 <img src="img\photo_2024-05-10_19-40-50.jpg" alt="not found">
             </div>
             <div class="t">
@@ -123,21 +208,68 @@
                     <li>Back End Dev</li>
                     <li>2015</li>
                 </ul>
+
             </div>
-
-            <div class="para">
-                <p>A daily selection of privately
-                    <br> personalized reads;no accounts or <br>sign-ups required.
-                </p>
-
-                <div class="headline-paragraph">
-                    <p> "I am a computer scientist in the making.<br>
-                        I'm always open to engaging in meaningful conversations and sharing knowledge.<br>
-                        Let's learn and grow together!"<br>
-                        By the way, don’t hesitate to contact me </p>
-
+            <div class="new">
+                <div class="t">
+                    <b>
+                        <h1>Tonic</h1>
+                    </b>
+                </div>
+                <div class="list">
+                    <ul>
+                        <b>CANOPY</b>
+                        <li>Back End Dev</li>
+                        <li>2015</li>
+                    </ul>
                 </div>
 
+                <div class="para">
+                    <p>A daily selection of privately
+                        <br> personalized reads;no accounts or <br>sign-ups required.
+                    </p>
+
+                    <div class="headline-paragraph">
+                        <p> "I am a computer scientist in the making.<br>
+                            I'm always open to engaging in meaningful conversations and sharing knowledge.<br>
+                            Let's learn and grow together!"<br>
+                            By the way, don’t hesitate to contact me </p>
+
+                    </div>
+
+                    <div class="list1">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                    </div>
+                    <div class="button">
+                        <button>See project</button>
+                    </div>
+                </div>
+        </section>
+        <section class="container">
+            <div class="image">
+                <img src="img/photo_2024-05-10_19-40-50 (2).jpg" alt="not found">
+            </div>
+            <div class="new">
+                <div class="t">
+                    <b>
+                        <h1>Multi-Post
+                            Stories</h1>
+                    </b>
+                </div>
+                <div class="list">
+                    <ul>
+                        <b>CANOPY</b>
+                        <li>Back End Dev</li>
+                        <li>2015</li>
+                    </ul>
+                </div>
+                <div class="para">
+                    <p>A daily selection of privately
+                        <br> personalized reads;no accounts or <br>sign-ups required.
+                    </p>
+                </div>
                 <div class="list1">
                     <li>Html</li>
                     <li>Css</li>
@@ -146,6 +278,7 @@
                 <div class="button">
                     <button>See project</button>
                 </div>
+
         </section>
         <section class="container">
             <div class="image">
@@ -176,49 +309,70 @@
             </div>
             <div class="button">
                 <button>See project</button>
-            </div>
-        </section>
-        </section>
-        <div class="headline-title">
-            <h2>ABOUT ጽዩናዊት</h2>
-        </div>
-        <div class="headline-paragraph">
-            <p> "I am a computer scientist in the making.<br>
-                I'm always open to engaging in meaningful conversations and sharing knowledge.<br>
-                Let's learn and grow together!"<br>
-                By the way, don’t hesitate to contact me</p>
-        </div>
-        <div class="headline-bolder">
-            <h4><b>LET'S CONNECT</b></h4>
-            <div class="button4">
-                <button>Get My Resume</button>
-            </div>
-            <a href="https://github.com/Zion-7"><img src="img\download.png" content width="25" alt=""></a>
 
-            <a href="https://www.linkedin.com/in/tsion-getnet-078196277/"><img src="img/download (1).png" content
-                    width="25" alt=""></a>
-            <a href="https://www.instagram.com/zionawit_7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img
-                    src="img/image.png" content width="25" alt="instagram not found"></a>
-        </div>
+            </div>
         </section>
         </section>
-        <section class="lang">
-            <div class="lan">
-                <h1>Languages</h1>
-                <img src="img/WebProgramming-Student-Project-1/Normal Button/Tertiary/Disabled.png" alt="">
+        <section class="container">
+            <div>
+                <div class="headline-title">
+
+                    <h3 id="about">ABOUT ጽዩናዊት</h3>
+                </div>
+                <div class="headline-paragraph">
+                    <p> "I am a computer scientist in the making.<br>
+                        I'm always open to engaging in meaningful conversations and sharing knowledge.<br>
+                        Let's learn and grow together!"<br>
+                        By the way, don’t hesitate to contact me</p>
+                </div>
+                <div class="headline-bolder">
+                    <h4><b>LET'S CONNECT</b></h4>
+
+                    <a href="https://github.com/Zion-7"><img src="img\download.png" content width="25" alt=""></a>
+
+                    <a href="https://www.linkedin.com/in/tsion-getnet-078196277/"><img src="img/download (1).png"
+                            content width="25" alt=""></a>
+                    <a
+                        href="https://www.instagram.com/zionawit_7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img
+                            src="img/image.png" content width="25" alt="instagram not found"></a>
+                </div>
+                <div class="button">
+                    <button>Get My Resume</button>
+                </div>
             </div>
-            <div class="lang-img">
-                <img src="img/js.jpg" alt="not found">
-                <h3>JavaScript</h3>
+5
+
+
+            <div class="new">
+
+
+                <div class="lan">
+                    <h1>Languages</h1>
+                    <img src="img/WebProgramming-Student-Project-1/Normal Button/Tertiary/Disabled.png" alt="">
+                </div>
+                <div class="lang-img">
+                    <img src="img/js.jpg" alt="not found">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="lang-img">
+                    <img src="img/photo_2024-05-10_22-53-20.jpg" alt="not found">
+                    <h3>Html</h3>
+                </div>
+                <div class="lang-img">
+                    <img src="img/photo_2024-05-10_22-53-35.jpg" alt="not found">
+                    <h3>css</h3>
+                </div>
+
+                <div class="form">
+                    <h1>Frameworks</h1>
+                    <img src="img\arr.jpg" alt="">
+                </div>
+                <div class="form">
+                    <h1>skills</h1>
+                    <img src="img\arr.jpg" alt="">
+                </div>
             </div>
-            <div class="lang-img">
-                <img src="img/photo_2024-05-10_22-53-20.jpg" alt="not found">
-                <h3>Html</h3>
-            </div>
-            <div class="lang-img">
-                <img src="img/photo_2024-05-10_22-53-35.jpg" alt="not found">
-                <h3>css</h3>
-            </div>
+
             <div class="form">
                 <h1>Frameworks</h1>
                 <img src="img\arr.jpg" alt="">
@@ -226,12 +380,12 @@
             <div class="form">
                 <h1>skills</h1>
                 <img src="img\arr.jpg" alt="">
+
             </div>
         </section>
-        </section>
-        <!-- <section class="contact">
+        <section class="contact">
             <div class="sec1">
-                <h2>contact me</h2>
+                <h2 id="contact">contact me</h2>
             </div>
             <div class="par">
                 <p>If you have an application you are interested in developing, a feature that you need built or a
@@ -247,7 +401,7 @@
                         required></textarea>
                     <input type="submit" value="Get in touch">
                 </form>
-        </section> -->
+        </section>
     </main>
 </body>
 

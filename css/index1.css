@@ -315,24 +315,34 @@ nav a:hover {
 
 input {
   display: block;
-  margin-bottom: 10px;
-  width: 95%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50%;
   padding: 2%;
-  height: 50px;
+  margin-left: 10%;
+  height: 25%;
 }
 
 textarea {
   display: block;
   margin-bottom: 10px;
-  width: 86%;
+  width: 50%;
   padding: 7%;
-  height: 70px;
+  height: 100px;
+  margin-left: 10%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 input[type="submit"] {
   margin-top: 10px;
   width: 30%;
-  margin-left: 2%;
+  height: 30%;
+  margin-left: 10%;
   border-radius: 10%;
   padding: 3%;
   color: blue;
@@ -340,9 +350,11 @@ input[type="submit"] {
 
 .contact {
   background-image: url(/img/contactback.png);
-  background-color: #6671f0;
+  background-color: #7f89f4;
   border-top-left-radius: 45px;
   height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form2 {

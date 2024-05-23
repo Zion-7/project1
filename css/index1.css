@@ -350,6 +350,11 @@ input[type="submit"] {
   flex-direction: column;
 }
 
+.error-message {
+  color: rgb(12, 231, 74);
+  margin-bottom: 10px;
+}
+
 .sec1 {
   align-self: center;
   margin-left: 20%;
@@ -364,4 +369,5 @@ input[type="submit"] {
   font-size: 100%;
   color: white;
   margin-top: 5px;
+
 }

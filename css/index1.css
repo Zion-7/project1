@@ -5,7 +5,8 @@ body {
   align-items: center;
   flex-direction: column;
   border: 5px solid white;
-  width: 375px;
+
+  /* width: 375px; */
   background-color: rgba(240, 248, 255, 0.463);
 }
 
@@ -31,10 +32,6 @@ body {
   align-items: center;
   justify-content: space-between;
   z-index: 100%;
-}
-
-.menu-toggle {
-  margin: 5%;
 }
 
 .head {
@@ -80,6 +77,11 @@ body {
   margin-top: 5%;
 }
 
+.menu-toggle {
+  display: none;
+  margin: 5%;
+}
+
 .menu-toggle:hover {
   color: #6070ff;
 }
@@ -101,16 +103,139 @@ body {
   width: 100%;
 }
 
+.nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav li {
+  height: 50px;
+}
+
+.nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.Sidebar a {
+  width: 100%;
+  text-decoration: none;
+}
+
+.hideonmobile a {
+  display: flex;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #6671f0;
+}
+
+.Sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Sidebar li {
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.hideonmobile li {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+}
+
+.list1 li {
+  display: flex;
+  font-size: medium;
+  text-decoration: none;
+  flex: 10;
+  background-color: #ebebff;
+  color: #7f8cff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: left;
+}
+
+.nav li:first-child {
+  margin-right: auto;
+}
+
+.hide {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+/* Tablet Skeleton */
+@media (min-width: 768px) {
+  /* .menu-toggle {
+    display: none;
+  } */
+
+  .container {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    visibility: hidden;
+  }
+}
+
 /* Mobile Skeleton */
-@media screen and (min-width: 375px) {
+@media (max-width: 767px) {
   .main3 {
     background-size: 100% 100%;
     padding: 10px;
   }
 
+  .hideonmobile {
+    display: none;
+  }
+
+  .Sidebar {
+    width: 100%;
+  }
+
   .menu-toggle {
-    display: inline-block;
+    display: block;
     border: none;
+  }
+
+  .nav li {
+    display: none;
+    text-decoration: none;
+  }
+
+  .new {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
 
@@ -123,8 +248,10 @@ body {
   background-color: white;
 }
 
-.image {
-  margin-top: 25%;
+.image img {
+  margin: auto;
+  max-width: 80%;
+  height: 80%;
 }
 
 .list ul {
@@ -147,20 +274,6 @@ body {
   gap: 5%;
   margin-left: 5%;
   list-style-type: none;
-}
-
-.list1 li {
-  display: flex;
-  font-size: medium;
-  text-decoration: none;
-  flex: 10;
-  background-color: #ebebff;
-  color: #7f8cff;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin: left;
 }
 
 .button button {
@@ -200,42 +313,58 @@ body {
   justify-content: space-between;
 }
 
-/*
 input {
   display: block;
-  margin-bottom: 10px;
-  width: 95%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50%;
   padding: 2%;
-  height: 50px;
+  margin-left: 10%;
+  height: 25%;
 }
+
 textarea {
   display: block;
   margin-bottom: 10px;
-  width: 86%;
+  width: 50%;
   padding: 7%;
-  height: 70px;
+  height: 100px;
+  margin-left: 10%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 input[type="submit"] {
   margin-top: 10px;
   width: 30%;
-  margin-left: 2%;
+  height: 30%;
+  margin-left: 10%;
   border-radius: 10%;
   padding: 3%;
   color: blue;
-
 }
 
 .contact {
   background-image: url(/img/contactback.png);
-  background-color: #6671f0;
+  background-color: #7f89f4;
   border-top-left-radius: 45px;
   height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form2 {
   display: flex;
   flex-direction: column;
+}
+
+.error-message {
+  color: rgb(231, 92, 12);
+  margin-bottom: 10px;
 }
 
 .sec1 {
@@ -252,4 +381,4 @@ input[type="submit"] {
   font-size: 100%;
   color: white;
   margin-top: 5px;
-} */
+}
